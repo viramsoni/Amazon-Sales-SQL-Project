@@ -1,6 +1,6 @@
-### Amazon USA SQL Sales Analysis Project
+# Amazon USA SQL Sales Analysis Project
 
-# Project Overview
+### Project Overview
 
 I have worked on analyzing a dataset of over 20,000 sales records from an Amazon-like e-commerce platform. This project involves extensive querying of customer behavior, product performance, and sales trends using PostgreSQL. Through this project, I have tackled various SQL problems, including revenue analysis, customer segmentation, and inventory management.
 
@@ -10,7 +10,7 @@ An ERD diagram is included to visually represent the database schema and relatio
 
 <img width="1430" height="778" alt="Amazon ERD" src="https://github.com/user-attachments/assets/77e5a02e-5462-47ef-a0a9-da4f44fa4db1" />
 
-# Database Setup & Design
+## Database Setup & Design
 
 Schema Structure
 ```sql
@@ -104,7 +104,7 @@ CREATE TABLE inventory
   CONSTRAINT inventory_fk_products FOREIGN KEY (product_id) REFERENCES products(product_id)
   );
 ```
-# Task: Data Cleaning
+## Task: Data Cleaning
 
 I checked whether dataset is cleaned or not by performing following and then cleaned:
 
@@ -231,7 +231,7 @@ The primary objective of this project is to showcase SQL proficiency through com
 - Payment and shipping analysis
 - Product performance
 
-# Identifying Business Problems
+## Identifying Business Problems
 
 * Key business problems identified:
 
@@ -240,9 +240,9 @@ The primary objective of this project is to showcase SQL proficiency through com
 - Significant delays in shipments and inconsistencies in delivery times.
 - High customer acquisition costs with a low customer retention rate.
 
-# Solving Business Problems
+## Solving Business Problems
 
-## Solutions Implemented:
+### Solutions Implemented:
 
 1. Top Selling Products
 Query the top 10 products by total sales value.
