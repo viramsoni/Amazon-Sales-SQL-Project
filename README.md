@@ -239,9 +239,9 @@ The primary objective of this project is to showcase SQL proficiency through com
 - Significant delays in shipments and inconsistencies in delivery times.
 - High customer acquisition costs with a low customer retention rate.
 
-## Solving Business Problems
+# Solving Business Problems
 
-# Solutions Implemented:
+## Solutions Implemented:
 
 1. Top Selling Products
 Query the top 10 products by total sales value.
@@ -864,3 +864,21 @@ order by decrease_ratio
 limit 10
 ```
 
+## Key Learning Outcomes
+
+Through this project, I have successfully developed the technical expertise to:
+
+- Architect Scalable Models: Designed and deployed a highly structured, fully normalized relational database schema.
+- Refine Raw Datasets: Executed complex data cleaning and preprocessing pipelines to ensure data integrity for analysis.
+- Write Advanced Queries: Leveraged high-performance SQL techniques, including window functions, subqueries, and multi-table joins.
+- Drive Business Intelligence: Translated raw transaction data into actionable operational insights and key business metrics.
+- Optimize Database Execution: Enhanced query runtimes, optimized execution plans, and managed data workloads efficiently.
+
+## Conclusion
+
+This advanced SQL portfolio project bridges the gap between raw transaction data and strategic e-commerce execution. By translating complex, multi-layered data challenges into structured database solutions, the analysis addresses critical core dependencies across inventory management, supply chain logistics, and long-term customer retention.
+
+Ultimately, this project showcases a comprehensive understanding of relational databases as modern engines for business intelligence. The resulting data structures and query pipelines serve as a reliable blueprint for navigating data-heavy operational ecosystems and driving scalable, data-backed corporate decision-making.
+
+# Entity Relationship Diagram (ERD)
+<img width="1309" height="822" alt="ERD - Amazon" src="https://github.com/user-attachments/assets/0160cb77-7f4d-46b2-9d86-bb7940c1a399" />
