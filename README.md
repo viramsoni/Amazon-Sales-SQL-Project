@@ -12,7 +12,7 @@ An ERD diagram is included to visually represent the database schema and relatio
 # Database Setup & Design
 
 Schema Structure
-'''sql
+```sql
 CREATE TABLE category
 (
   category_id	INT PRIMARY KEY,
@@ -102,4 +102,4 @@ CREATE TABLE inventory
   last_stock_date DATE,
   CONSTRAINT inventory_fk_products FOREIGN KEY (product_id) REFERENCES products(product_id)
   );
-'''
+```
